@@ -1,0 +1,152 @@
+[
+  {
+    "description": "This bouquet captures the elegance of roses, the purity of lilies, and the vibrancy of chrysanthemums. Roses convey passion, lilies add a serene touch, and chrysanthemums bring joy. An ideal bouquet for any celebration, spreading warmth and affection.",
+    "valid": true,
+    "comment": "bouquet"
+  },
+  {
+    "description": "A delightful blend of peonies, tulips, and lavender. The peonies exude romance, the tulips offer a burst of color, and lavender adds a calming aroma. Perfect for expressing your heartfelt emotions.",
+    "valid": true,
+    "comment": "bouquet"
+  },
+  {
+    "description": "This enchanting bouquet features the exotic beauty of orchids, the freshness of cornflowers, and the softness of carnations. A wonderful arrangement for any occasion, combining elegance, playfulness, and admiration.",
+    "valid": true,
+    "comment": "bouquet"
+  },
+  {
+    "description": "A bouquet that brings together lilies, hyacinths, and roses in a perfect harmony. The lilies offer grace, the hyacinths bring color, and the roses symbolize deep affection. Ideal for making someones day special.",
+    "valid": true,
+    "comment": "bouquet"
+  },
+  {
+    "description": "This arrangement features tulips, chrysanthemums, and lavender in a vibrant ensemble. The tulips add joy, the chrysanthemums celebrate life, and the lavender infuses peace. A versatile bouquet for any joyous event.",
+    "valid": true,
+    "comment": "bouquet"
+  },
+  {
+    "description": "A charming bouquet of peonies, carnations, and orchids. The peonies represent beauty, the carnations admiration, and the orchids add an exotic flair. Perfect for special moments shared with loved ones.",
+    "valid": true,
+    "comment": "bouquet"
+  },
+  {
+    "description": "An elegant bouquet combining lilies, cornflowers, and lavender. The lilies radiate serenity, the cornflowers add cheer, and the lavender brings calm. A beautiful way to show appreciation.",
+    "valid": true,
+    "comment": "bouquet"
+  },
+  {
+    "description": "This bouquet blends the playful nature of tulips, the elegance of roses, and the charm of chrysanthemums. A vibrant gift to convey joy, affection, and happiness.",
+    "valid": true,
+    "comment": "bouquet"
+  },
+  {
+    "description": "A bouquet featuring fragrant lavender, delicate peonies, and cheerful hyacinths. Lavender offers tranquility, peonies symbolize romance, and hyacinths bring a touch of brightness. An ideal gift for someone special.",
+    "valid": true,
+    "comment": "bouquet"
+  },
+  {
+    "description": "This arrangement unites exotic orchids, vibrant tulips, and joyful cornflowers. A combination of elegance, color, and rustic charm, perfect for making memories.",
+    "valid": true,
+    "comment": "bouquet"
+  },
+  {
+    "description": "This elegant leather wallet combines functionality and style. Crafted from premium materials, it features multiple compartments for cards and cash, ensuring both organization and sophistication.",
+    "valid": true,
+    "comment": "var"
+  },
+  {
+    "description": "Experience true comfort with these memory foam pillows. Designed to contour perfectly to your head and neck, they provide excellent support for restful sleep every night.",
+    "valid": true,
+    "comment": "var"
+  },
+  {
+    "description": "Upgrade your music experience with wireless earbuds. Featuring noise-cancellation and crystal-clear sound, they offer up to 20 hours of playtime on a single charge.",
+    "valid": true,
+    "comment": "var"
+  },
+  {
+    "description": "This sleek stainless steel watch combines precision and durability. Water-resistant and equipped with a chronograph, it's the perfect accessory for both business and leisure.",
+    "valid": true,
+    "comment": "var"
+  },
+  {
+    "description": "Enhance your kitchen with this 12-piece non-stick cookware set. Its superior heat distribution ensures even cooking, while the ergonomic handles offer a comfortable grip.",
+    "valid": true,
+    "comment": "var"
+  },
+  {
+    "description": "This bouquet consists of pastel roses and white lilies, arranged to convey a sense of tranquility and comfort. It is appropriate for reflective moments or as a respectful gesture of condolence.",
+    "valid": false,
+    "comment": "bouquet"
+  },
+  {
+    "description": "This arrangement includes red tulips and yellow chrysanthemums, designed to convey vibrancy and enthusiasm. It is suitable for recognizing achievements or enhancing the atmosphere of a space.",
+    "valid": false,
+    "comment": "bouquet"
+  },
+  {
+    "description": "This bouquet combines lavender and orchids, providing an arrangement that emphasizes distinctive aesthetics. It is intended for recipients who value unique floral compositions.",
+    "valid": false,
+    "comment": "bouquet"
+  },
+  {
+    "description": "This arrangement features sunflowers and carnations, offering a presentation that reflects warmth and optimism. It serves as an appropriate gift to elevate someone's mood or foster a positive environment.",
+    "valid": false,
+    "comment": "bouquet"
+  },
+  {
+    "description": "This arrangement comprises white peonies and pale pink roses, focusing on elegance and refinement. It is suitable for formal occasions such as weddings, anniversaries, or other significant events.",
+    "valid": false,
+    "comment": "bouquet"
+  },
+  {
+    "description": "A bouquet consisting of white roses and blue hydrangeas arranged in a minimalistic style.",
+    "valid": false,
+    "comment": "bouquet"
+  },
+  {
+    "description": "An arrangement of red roses and white lilies structured for visual balance.",
+    "valid": false,
+    "comment": "bouquet"
+  },
+  {
+    "description": "A bouquet composed of yellow tulips and white daisies providing a neutral aesthetic.",
+    "valid": false,
+    "comment": "bouquet"
+  },
+  {
+    "description": "An arrangement featuring purple orchids and pink carnations selected for subtle contrast.",
+    "valid": false,
+    "comment": "bouquet"
+  },
+  {
+    "description": "A combination of sunflowers and lavender organized to produce a restrained visual effect.",
+    "valid": false,
+    "comment": "bouquet"
+  },
+  {
+    "description": "A leather wallet with multiple compartments, RFID protection, and compact design.",
+    "valid": false,
+    "comment": "var"
+  },
+  {
+    "description": "Wireless earbuds with noise cancellation, Bluetooth 5.2, and 20-hour battery life.",
+    "valid": false,
+    "comment": "var"
+  },
+  {
+    "description": "A stainless steel watch featuring chronograph function, water resistance, and adjustable strap.",
+    "valid": false,
+    "comment": "var"
+  },
+  {
+    "description": "A memory foam pillow with ergonomic shape, hypoallergenic cover, and breathable material.",
+    "valid": false,
+    "comment": "var"
+  },
+  {
+    "description": "A non-stick cookware set with heat-resistant handles, even heat distribution, and dishwasher safety.",
+    "valid": false,
+    "comment": "var"
+  }
+]
