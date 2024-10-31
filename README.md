@@ -11,23 +11,17 @@ This project focuses on **stylistic analysis of text** through the fine-tuning o
 
 ## Usage
 
-To use the application, you must first train the model if it has not been trained yet.
+The main script `main.py` provides an interface for performing various tasks related to Hugging Face and OpenAI models. To use this script, run `main.py` and select the desired operation by entering the corresponding number.
 
-### Train the Model:
-```bash
-python main.py train
-```
+### Available Options
 
-### Analyze Data:
-Once the model is trained, run the analysis:
+1. **(Hugging Face) Train Model** - Fine-tunes a Hugging Face model on a custom corpus for stylistic adaptation.
+2. **(Hugging Face) Evaluate Model** - Evaluates the trained Hugging Face model on a test set to measure performance.
+3. **(OpenAI) Generate Text** - Uses OpenAI to generate text based on provided prompts.
+4. **(OpenAI) Evaluate Text** - Evaluates the generated text for style and content consistency.
 
-```bash
-python main.py
-```
 
-The analyzer will process the texts from the ./data/test.json file.
-
-## Usage
+## Usacases
 This project can be used for:
 - **Text similarity analysis**: Checking how well a given text conforms to the style of a specific author or genre.
 - **Plagiarism detection**: Identifying stylistic deviations in texts.
