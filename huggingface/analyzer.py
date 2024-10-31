@@ -1,8 +1,11 @@
 import json
+import os
 import random
 
 import torch
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
+
+from constants import DATA_PATH
 
 
 def analyze():
@@ -11,10 +14,10 @@ def analyze():
 
 def test():
     tp = tn = fp = fn = 0
-    model = GPT2LMHeadModel.from_pretrained('./model')
-    tokenizer = GPT2Tokenizer.from_pretrained('./model')
+    model = GPT2LMHeadModel.from_pretrained('../model')
+    tokenizer = GPT2Tokenizer.from_pretrained('../model')
 
-    with open('./data/test.json', 'r') as f:
+    with open(os.path.join(DATA_PATH, "test.json"), 'r') as f:
         data = json.load(f)
         random.shuffle(data)
 

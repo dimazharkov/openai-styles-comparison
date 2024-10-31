@@ -6,6 +6,8 @@ from datasets import load_dataset
 from transformers import GPT2Tokenizer, GPT2LMHeadModel, TextDataset, DataCollatorForLanguageModeling, \
     TrainingArguments, Trainer
 
+from constants import DATA_PATH
+
 
 def train():
     model_name = 'gpt2'
@@ -21,7 +23,7 @@ def train():
     tokenizer.pad_token = tokenizer.eos_token
 
     dataset = prep_dataset(
-        tokenizer, './data/corpus.json'
+        tokenizer, file_path=os.path.join(DATA_PATH, "corpus.json")
     )
 
     data_collator = DataCollatorForLanguageModeling(
@@ -30,7 +32,7 @@ def train():
     )
 
     training_args = TrainingArguments(
-        output_dir='./output',
+        output_dir='../output',
         overwrite_output_dir=True,
         num_train_epochs=50,
         per_device_train_batch_size=4,
@@ -52,8 +54,8 @@ def train():
 
     trainer.train()
 
-    model.save_pretrained('./model')
-    tokenizer.save_pretrained('./model')
+    model.save_pretrained('../model')
+    tokenizer.save_pretrained('../model')
 
 
 def prep_dataset(tokenizer, file_path):
@@ -82,18 +84,18 @@ def prep_txt_dataset(tokenizer, file_path):
     )
 
 
-def prep_corpus_file(file_path: str = './data/corpus.txt') -> None:
-    if os.path.exists(file_path):
-        return
-
-    file_path_json = file_path.replace(".txt", ".json")
-    if not os.path.exists(file_path_json):
-        raise FileNotFoundError
-
-    with (open(file_path_json, 'r', encoding='utf-8')) as f:
-        data = json.load(f)
-
-    with (open(file_path, 'w', encoding='utf-8')) as f:
-        for entry in data:
-            content = ' '.join(entry['description'])
-            f.write(content + '\n')
+# def prep_corpus_file(file_path: str = './data/corpus.txt') -> None:
+#     if os.path.exists(file_path):
+#         return
+#
+#     file_path_json = file_path.replace(".txt", ".json")
+#     if not os.path.exists(file_path_json):
+#         raise FileNotFoundError
+#
+#     with (open(file_path_json, 'r', encoding='utf-8')) as f:
+#         data = json.load(f)
+#
+#     with (open(file_path, 'w', encoding='utf-8')) as f:
+#         for entry in data:
+#             content = ' '.join(entry['description'])
+#             f.write(content + '\n')
